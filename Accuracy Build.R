@@ -301,8 +301,8 @@ history <- DLmodel %>% compile(
 
 DLmodel %>% fit(
   X_train, y_train, 
-  epochs = 500, 
-  batch_size = 256,
+  epochs = 1000, 
+  batch_size = 512,
   validation_split = 0.1
 )
 
